@@ -1,3 +1,9 @@
+## THIS REPOSITORY IS ARCHIVED BECAUSE:
+* The repo was responsible for loading the web-api into a docker container. This is now done by loading a docker image from docker hub and running it, which is more flexible.
+
+* The repo also does not work since it tries to clone a repository on GitLab which is no longer running. Also the repo has not been changed since initial commit, which means it has not been updated in a long time.
+
+
 # Docker Deployment script
 This script creates docker containers for the develop, master, and release branches of Giraf Rest Web-API named nightly, production and release.
 
